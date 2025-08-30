@@ -2,102 +2,134 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div id="top" className="font-sans">
+      <section className="max-w-screen-xl mx-auto px-5 py-16 sm:py-24">
+        <div className="relative mx-auto w-full max-w-4xl aspect-[4/3] sm:aspect-[16/9] rounded-lg overflow-hidden ring-1 ring-white/10">
+          <div className="candle-glow" />
+          <Image
+            src="/from-ashes-to-angels-fire.png"
+            alt="From Ashes to Angels - Fire"
+            fill
+            className="relative z-10 object-contain"
+            priority
+          />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <h1 className="mt-8 text-4xl sm:text-5xl font-extrabold tracking-tight text-center font-[family-name:var(--font-old-english)] title-outline-glow text-red-glow">
+          From Ashes To Angels
+        </h1>
+        <p className="mt-4 text-xl sm:text-lg text-white/80 max-w-3xl mx-auto text-center text-red-glow">
+          The Vision
+        </p>
+        <p className="mt-2 text-white/70 max-w-3xl mx-auto text-center text-red-glow">
+          A modeling and talent agency with a recovery focus. Instead of just
+          scouting polished talent, the agency seeks out women who have survived
+          addiction, trauma, or hardship. The mission is to help them rebuild
+          confidence, reclaim their beauty, and showcase their strength.
+        </p>
+      </section>
+
+      <section id="about" className="bg-white/5 border-y border-white/10">
+        <div className="max-w-screen-xl mx-auto px-5 py-16 sm:py-24">
+          <h2 className="text-2xl sm:text-3xl font-bold">About From Ashes To Angels</h2>
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+            <div className="relative aspect-[4/3] rounded-lg overflow-hidden ring-1 ring-white/10">
+              <Image
+                src="/from-ashes-to-angels-mary.png"
+                alt="From Ashes to Angels - Mary"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <div className="box-red-glow rounded-lg border border-white/10 p-6">
+              <p className="text-white/90">
+                From Ashes To Angels was born out of the fire — a vision to turn pain into power and brokenness into beauty. We believe that every scar tells a story, and every story can rise again. What the world once called ruined, God calls redeemed.
+              </p>
+              <p className="mt-4 text-white/90">
+                Our mission is to walk with women who’ve been beaten down by addiction, trauma, or life’s battles and help them discover the angel within. Through mentorship, creative expression, and transformation, we give them the tools to rebuild their confidence, reclaim their dignity, and step boldly into a new chapter of life.
+              </p>
+              <p className="mt-4 text-white/90">
+                This isn’t just about beauty on the outside — it’s about inner healing, strength, and testimony. From photoshoots to real-life opportunities, we showcase women as living proof that from the ashes of the past, angels can rise.
+              </p>
+              <p className="mt-4 text-white/90">
+                We are more than a brand. We are a movement of resilience, faith, and holy-hood transformation. Every face carries a message: You are not forgotten. You are not broken beyond repair. You are chosen, set free, and radiant with purpose.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" className="max-w-screen-xl mx-auto px-5 py-16 sm:py-24">
+        <h2 className="text-2xl sm:text-3xl font-bold">The Process</h2>
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="rounded-lg border border-white/10 p-6 bg-white/5">
+            <h3 className="font-semibold">Intake & Mentorship</h3>
+            <p className="mt-2 text-white/80">
+              Work with women in recovery programs, shelters, or sober living
+              homes. Offer mentorship, coaching, and wellness support.
+            </p>
+          </div>
+          <div className="rounded-lg border border-white/10 p-6 bg-white/5">
+            <h3 className="font-semibold">Makeover & Self-Care</h3>
+            <p className="mt-2 text-white/80">
+              Professional stylists, fitness trainers, and nutritionists help
+              each woman clean up her appearance in healthy, sustainable ways.
+            </p>
+          </div>
+          <div className="rounded-lg border border-white/10 p-6 bg-white/5">
+            <h3 className="font-semibold">Portfolio & Branding</h3>
+            <p className="mt-2 text-white/80">
+              Give them professional photoshoots, model training, and media kits
+              so they can book real jobs.
+            </p>
+          </div>
+        </div>
+        <div className="mt-6 rounded-lg border border-white/10 p-6 bg-white/5">
+          <h3 className="font-semibold">Opportunities</h3>
+          <p className="mt-2 text-white/80">
+            Partner with fashion brands, lifestyle companies, and
+            recovery-minded organizations that want to represent real, authentic
+            stories of resilience and transformation.
+          </p>
+        </div>
+      </section>
+
+      <section id="impact" className="bg-white/5 border-y border-white/10">
+        <div className="max-w-screen-xl mx-auto px-5 py-16 sm:py-24 grid gap-6 md:grid-cols-3">
+          <div>
+            <h3 className="text-xl font-semibold">For the women</h3>
+            <p className="mt-2 text-white/80">
+              It’s not just about modeling; it’s about rebuilding dignity and
+              opportunity.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">For society</h3>
+            <p className="mt-2 text-white/80">
+              It changes the perception of what beauty looks like, showing that
+              recovery is powerful and inspiring.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">For business</h3>
+            <p className="mt-2 text-white/80">
+              Brands are hungry for authenticity and diverse stories — this
+              gives them that while also supporting a meaningful cause.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="twist" className="max-w-screen-xl mx-auto px-5 py-16 sm:py-24">
+        <h2 className="text-2xl sm:text-3xl font-bold">Extra Twist</h2>
+        <p className="mt-4 text-white/80 max-w-3xl">
+          The agency could also build a social media documentary series:
+          showing before-and-after transformations, telling their stories, and
+          inspiring others who are still struggling. That not only builds the
+          brand but also becomes a movement.
+        </p>
+      </section>
+
+
     </div>
   );
 }
