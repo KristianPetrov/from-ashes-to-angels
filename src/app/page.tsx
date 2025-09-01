@@ -136,7 +136,7 @@ export default function Home() {
                 src={src}
                 alt={`Digital design example ${idx + 1}`}
                 fill
-                className={`object-cover transition-opacity duration-700 ease-in-out ${idx === slideIndex ? "opacity-100 kenburns-in" : "opacity-0"}`}
+                className={`object-contain transition-opacity duration-700 ease-in-out ${idx === slideIndex ? "opacity-100 kenburns-in" : "opacity-0"}`}
                 priority={idx === 0}
               />
             ))}
