@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 const IMAGES = [
-  "/excorcism-baddie.png",
-  "/excorcism-baddie-death.png",
-  "/excorcism-baddie-bw.png",
-  "/sanctified-desire.png",
+  "/holy-hood-elisabeth.png",
+  "/kawaii-liz.png",
+  "/mother-elisabeth.png",
+  "/happy-sad-jester-liz.png",
 ];
 
 export default function GalleryPage({ params }: { params: { index: string } }) {

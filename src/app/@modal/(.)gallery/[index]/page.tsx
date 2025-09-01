@@ -4,10 +4,10 @@ import { useRouter } from "next/navigation";
 import { useEffect, useMemo } from "react";
 
 const IMAGES = [
-  "/excorcism-baddie.png",
-  "/excorcism-baddie-death.png",
-  "/excorcism-baddie-bw.png",
-  "/sanctified-desire.png",
+  "/holy-hood-elisabeth.png",
+  "/kawaii-liz.png",
+  "/mother-elisabeth.png",
+  "/happy-sad-jester-liz.png",
 ];
 
 export default function GalleryModal({ params }: { params: { index: string } }) {

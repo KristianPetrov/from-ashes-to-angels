@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export default function Home() {
   const slideshowImages = [
-    "/excorcism-baddie.png",
-    "/excorcism-baddie-death.png",
-    "/excorcism-baddie-bw.png",
-    "/sanctified-desire.png",
+    "/holy-hood-elisabeth.png",
+    "/kawaii-liz.png",
+    "/mother-elisabeth.png",
+    "/happy-sad-jester-liz.png",
   ];
   const [slideIndex, setSlideIndex] = useState(0);
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
