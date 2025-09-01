@@ -35,7 +35,7 @@ export default function GalleryModal({ params }: { params: { index: string } }) 
       aria-modal="true"
       onClick={() => router.back()}
     >
-      <div className="relative w-screen max-w-5xl h-[80vh] mx-4" onClick={(e) => e.stopPropagation()}>
+      <div className="relative max-w-5xl w-[calc(100vw-2rem)] sm:w-[calc(100vw-4rem)] h-[80vh] mx-auto" onClick={(e) => e.stopPropagation()}>
         <div className="candle-glow" />
         <Image src={src} alt="Gallery image" fill className="relative z-10 object-contain" priority />
         <button

@@ -5,7 +5,7 @@ export default function About() {
     <section id="about" className="bg-white/5 border-y border-white/10">
       <div className="max-w-screen-xl mx-auto px-5 py-16 sm:py-24">
         <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-center font-[family-name:var(--font-old-english)] title-outline-glow text-red-glow">About From Ashes To Angels</h2>
-        <div className="mt-8 relative mx-[calc(50%-50vw)] w-screen aspect-[4/3] md:aspect-[16/9] overflow-hidden ring-1 ring-white/10">
+        <div className="mt-8 relative w-full md:mx-[calc(50%-50vw)] md:w-screen aspect-[4/3] md:aspect-[16/9] overflow-hidden ring-1 ring-white/10">
           <div className="candle-glow" />
           <Image
             src="/from-ashes-to-angels-mary.png"
