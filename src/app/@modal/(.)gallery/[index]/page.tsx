@@ -9,6 +9,8 @@ const IMAGES = [
   "/mother-elisabeth.png",
   "/happy-sad-jester-liz.png",
   "/wizard-liz.png",
+  "/elisabeth-from-ashes-to-angels.png",
+  "/elisabeth-holy-bling.png",
 ];
 
 export default function GalleryModal({ params }: { params: { index: string } }) {

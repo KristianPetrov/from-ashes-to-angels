@@ -69,10 +69,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/from-ashes-to-angels-fire.png",
+        url: "/elisabeth-from-ashes-to-angels.png",
         width: 1200,
         height: 630,
-        alt: "From Ashes To Angels - Fire",
+        alt: "From Ashes To Angels - Elisabeth",
       },
     ],
   },
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     title: "From Ashes To Angels",
     description:
       "A modeling and talent agency with a recovery focus. Helping women rebuild confidence, reclaim dignity, and rise from the ashes.",
-    images: ["/from-ashes-to-angels-fire.png"],
+    images: ["/elisabeth-from-ashes-to-angels.png"],
     creator: "Set Free Digital Disciples",
   },
   icons: {
