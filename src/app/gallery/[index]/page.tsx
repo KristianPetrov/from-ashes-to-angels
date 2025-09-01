@@ -5,6 +5,7 @@ const IMAGES = [
   "/kawaii-liz.png",
   "/mother-elisabeth.png",
   "/happy-sad-jester-liz.png",
+  "/wizard-liz.png",
 ];
 
 export default function GalleryPage({ params }: { params: { index: string } }) {

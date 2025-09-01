@@ -8,6 +8,7 @@ const IMAGES = [
   "/kawaii-liz.png",
   "/mother-elisabeth.png",
   "/happy-sad-jester-liz.png",
+  "/wizard-liz.png",
 ];
 
 export default function GalleryModal({ params }: { params: { index: string } }) {

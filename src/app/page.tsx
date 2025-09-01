@@ -9,6 +9,7 @@ export default function Home() {
     "/kawaii-liz.png",
     "/mother-elisabeth.png",
     "/happy-sad-jester-liz.png",
+    "/wizard-liz.png",
   ];
   const [slideIndex, setSlideIndex] = useState(0);
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
