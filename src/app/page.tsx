@@ -6,6 +6,7 @@ import DigitalDesign from "./components/DigitalDesign";
 import Process from "./components/Process";
 import Impact from "./components/Impact";
 import Twist from "./components/Twist";
+import InfernalCoach from "./components/InfernalCoach";
 
 export default function Home() {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
@@ -34,6 +35,7 @@ export default function Home() {
       <About />
       <MakeoverMage />
       <DigitalDesign />
+      <InfernalCoach />
       <Process />
       <Impact />
       <Twist />
